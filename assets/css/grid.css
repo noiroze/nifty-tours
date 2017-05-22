@@ -1,0 +1,62 @@
+/*
+File Name: grid.css
+Date: 05/08/17
+Programmer: Erica Walker
+*/
+
+/***** MOBILE RESOLUTION ******/
+
+/*  SECTIONS  */
+.section {
+    clear: both;
+    margin: 0;
+}
+
+/*  COLUMN SETUP  */
+.col {
+    display: block;
+    float: left;
+    margin: 0;
+}
+
+.span_1_of_2, .span_2_of_2, .span_4_of_4 {
+    width: 100%;
+}
+
+/*  GROUPING  */
+.group:before, .group:after {
+    content: "";
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+
+
+
+
+/* TABLET AND DESKTOP: GO INTO COLUMNS AT 769 PX OR HIGHER */
+@media only screen and (min-width: 769px) {
+
+     /*  GRID OF FOUR  */
+    .span_4_of_4 {
+        width: 25%;
+    }
+
+
+    /*  GRID OF TWO  */
+    .span_2_of_2 {
+        height: 100%;
+        width: 25%;
+    }
+
+    .span_1_of_2 {
+        width: 75%;
+    }
+
+    .col:first-child {
+        margin-left: 0;
+    }
+
+}

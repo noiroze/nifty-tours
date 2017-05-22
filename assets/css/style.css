@@ -1,0 +1,165 @@
+/* MOBILE RESOLUTION */
+body {
+    /*margin:0;*/
+    /*background-color: #ffffff;*/
+    /*color: #000000;*/
+    /*font-family: 'Open Sans', sans-serif;*/
+    /*font-size: 16px;*/
+}
+
+header h1 {
+    color: #ffffff;
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 3em;
+    margin: 0 0 1em 0;
+    text-transform: uppercase;
+}
+
+header p {
+    text-align: center;
+}
+
+main {
+    /*margin-top: 5em;*/
+    padding: 1em;
+}
+
+main h2 {
+    color: #000000;
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 2.25em;
+    margin: 0 0 0.75em 0;
+    /*text-transform: uppercase;*/
+}
+
+main h3 {
+    color: #000000;
+    font-size: 1.25em;
+    font-weight: bold;
+    line-height: 1.875em;
+    margin: 0 0 0.625em 0;
+    /*text-transform: uppercase;*/
+}
+
+main p,
+main ul {
+    font-size: 1em;
+    line-height: 1.5em;
+    margin: 0 0 1.5em 0;
+}
+
+main a {
+    color: #036564;
+}
+
+main ul {
+    margin-left: 2em;
+}
+
+main ul li {
+    list-style-type: disc;
+}
+
+footer {
+    color: #333;
+    background-color: #e7e7e7;
+    padding: 1em 0 0 0;
+    text-align: center;
+}
+
+footer h2 {
+    color: #e8ddcb;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 1.5em;
+    margin: 0 0 0.5em 0;
+    text-transform: uppercase;
+}
+
+footer p,
+footer ul {
+    font-size: 0.85em;
+    line-height: 1.275em;
+}
+
+footer ul {
+    padding-right: 3em;
+}
+
+footer ul li {
+    list-style-type: none;
+}
+
+.container > .navbar-header {
+    text-align: center;
+    display: block;
+}
+
+
+.twitter-timeline {
+    height: 50%;
+}
+
+
+
+#background {
+    background-image: url(../images/nifty-map.png);
+    /*background-repeat: repeat;*/
+    height: 400px;
+    max-width: 100%;
+}
+
+
+#converter {
+    margin: 0 0 20px 0;
+}
+
+#fb {
+    /*margin: 0 0 20px 195px;*/
+}
+
+
+/*#logo .img {*/
+    /*height: 50%;*/
+    /*width: 50%;*/
+    /*horiz-align: center;*/
+    /*text-align: center;*/
+
+/*}*/
+
+
+#social {
+    /*height: 100%;*/
+    /*padding-right: 2em;*/
+}
+
+#twitter {
+    /*margin-right: 200px;*/
+    /*margin-left: 200px;*/
+}
+
+
+/* TABLET AND DEKSTOP VIEW */
+
+@media screen and (min-width: 600px) {
+
+
+    footer p {
+        padding-top: 1.3em;
+    }
+
+
+    #converter {
+        margin: 0 0 20px 0;
+    }
+}
+
+
+
+/*BOOTSTRAP OVERRIDES*/
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
