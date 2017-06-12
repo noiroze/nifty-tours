@@ -1,0 +1,275 @@
+@color_1: #000000;
+@color_2: #AEA600;
+@color_3: #333;
+@color_4: #e8ddcb;
+@color_5: rgba(255, 255, 255, 0.0);
+@color_6: #B07995;
+@color_7: #745577;
+@font_family_1: Varela, Arial, Helvetica, sans-serif;
+@background_color_1: #e7e7e7;
+@background_color_2: #f7f7f7;
+@background_color_3: #482D3C;
+
+/************** SLIDESHOW ************/
+/***************************************/
+/******************* Tablet and Desktop ***********************/
+/*BOOTSTRAP OVERRIDES*/
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+}
+#wrap {
+	.col {
+		body {  background-color: #f8f8f8;
+			color: @color_1;
+		}
+	}
+	header {
+		p {
+			text-align: center;
+		}
+	}
+	main {
+		padding: 1em 4em 1em 4em;
+		h1 {
+			color: @color_1;
+			font-size: 2em;
+			font-weight: bold;
+			line-height: 3em;
+			text-transform: uppercase;
+		}
+		h2 {
+			color: @color_1;
+			font-size: 1.5em;
+			font-weight: bold;
+			line-height: 2.25em;
+			margin: 0 0 0.75em 0;
+			text-transform: uppercase;
+		}
+		h3 {
+			color: @color_1;
+			font-size: 1.25em;
+			font-weight: bold;
+			line-height: 1.875em;
+			margin: 0 0 0.625em 0;
+			text-transform: uppercase;
+		}
+		p {
+			font-size: 1.2em;
+			line-height: 1.5em;
+			margin: 0 0 1.5em 0;
+		}
+		ul {
+			font-size: 1.2em;
+			line-height: 1.5em;
+			margin: 0 0 1.5em 0;
+			margin-left: 2em;
+			li {
+				list-style-type: disc;
+			}
+		}
+		a {
+			color: @color_2;
+		}
+	}
+	footer {
+		color: @color_3;
+		font-weight: bold;
+		background-color: @background_color_1;
+		padding: 1em 0 0 0;
+		text-align: center;
+		h2 {
+			color: @color_4;
+			font-size: 1em;
+			font-weight: bold;
+			line-height: 1.5em;
+			margin: 0 0 0.5em 0;
+			text-transform: uppercase;
+		}
+		p {
+			font-size: 0.85em;
+			line-height: 1.275em;
+		}
+		ul {
+			font-size: 0.85em;
+			line-height: 1.275em;
+			padding-right: 3em;
+			li {
+				list-style-type: none;
+			}
+		}
+	}
+	img {
+		color: @color_5;
+	}
+	table {
+		background-color: @background_color_2;
+		width: 80%;
+	}
+	th {
+		font-family: @font_family_1;
+		background-color: @background_color_3;
+		color: @color_6;
+		font-weight: normal;
+		font-size: .9em;
+		text-align: center;
+		padding: 5px;
+		vertical-align: middle;
+		border: 1px solid #482D3C;
+	}
+	td {
+		text-align: center;
+		padding: 5px;
+		vertical-align: middle;
+		border: 1px solid #482D3C;
+		color: @color_1;
+		font-size: .75em;
+	}
+	.centerit {
+		text-align: center;
+	}
+	.container {
+		>.navbar-header {
+			text-align: center;
+			display: block;
+		}
+	}
+	.emphasized {
+		color: @color_7;
+		font-size: 1em;
+		font-weight: bold;
+	}
+	.display-image {
+		img {
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+	.rightit {
+		text-align: right;
+	}
+	.rslides {
+		position: relative;
+		list-style: none;
+		overflow: hidden;
+		width: 100%;
+		padding: 1em;
+		margin: 6em auto 0 auto;
+		li {
+			-webkit-backface-visibility: hidden;
+			position: absolute;
+			display: none;
+			width: 100%;
+			left: 0;
+			top: 0;
+			&:first-child {
+				position: relative;
+				display: block;
+			}
+		}
+		img {
+			display: block;
+			height: auto;
+			max-width: 100%;
+			border: 0;
+			margin-right: auto;
+			margin-left: auto;
+		}
+	}
+	#background {
+		background-image: url(../images/nifty-map.png);
+		background-repeat: repeat;
+		width: 100%;
+	}
+	#contact-main {
+		h1 {
+			line-height: 2em;
+		}
+		p {
+			line-height: .5em;
+		}
+		ul {
+			line-height: 1.2em;
+		}
+	}
+	#converter {
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom: 1em;
+	}
+	#fb {
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom: 2em;
+		align-items: center;
+		justify-content: center;
+		display: flex;
+	}
+	#form-submit {
+		color: @color_1;
+	}
+	#movie {
+		display: block;
+		height: auto;
+		max-width: 100%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	#social {
+		padding-top: 3em;
+		display: block;
+		text-align: center;
+	}
+	#static-image {
+		padding: 1em;
+		margin-top: 10em;
+	}
+	#twitter {
+		margin-right: auto;
+		margin-left: auto;
+		max-width: 50%;
+	}
+	.container-fluid {
+		padding-right: 0;
+		padding-left: 0;
+	}
+	float {
+		&: {
+			left; {
+		} {
+			#wrap {
+				.col {
+					a {
+						text-decoration: none;
+					}
+				}
+			}
+		}
+		}
+	}
+}
+@media screen and (min-width: 600px) {
+	footer {
+		text-align: center;
+		p {
+			padding-top: 1.3em;
+		}
+	}
+	#converter {
+		margin: 0 0 20px 0;
+	}
+	#static-image {
+		margin-top: 5em;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+@media screen and (min-width: 1025px) {
+	#twitter {
+		margin-right: auto;
+		margin-left: auto;
+		max-width: 100%;
+	}
+}
